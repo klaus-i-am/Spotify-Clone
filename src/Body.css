@@ -1,0 +1,166 @@
+.body {
+    overflow-y: overlay;
+    color: white;
+    flex: 0.9;
+    padding: 30px;
+    height: 85vh;
+    background: linear-gradient( rgb(91, 87, 115), rgba(0,0,0,1));
+}
+
+a { 
+    margin-top: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p { 
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.body__info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.body__infoText:span {
+    margin-left: 0;
+}
+
+.body__infoText {
+    flex: 1;
+    margin-top: 10%;
+}
+
+.body__infoText > h2 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.body__infoText > p {
+    font-size: 14px;
+}
+
+.body__info > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText > strong {
+    font-size: 14px;
+}
+
+.body__icons {
+    display: flex;
+    align-items: center;
+}
+
+.body__icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body__shuffle {
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body__shuffle:hover {
+    transition: 0.1s transform ease-in;
+    transform: scale(1.08);
+}
+
+.body__songs {
+    margin: 20px -30px 10px -30px;
+}
+
+.body__songs > ol {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid red;
+}
+
+.body__songs > hr {
+    margin: 10px 30px;
+    border: 1px solid rgba(56,56,61, 0.75);
+}
+
+.body__songsHeader {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px 0;
+    width: 95.75%;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(71,81,97, 0.5);
+}
+
+.body__songsNumber > p {
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.body__songsTitle > p {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 30px;
+    margin-right: 690px;
+    margin-top: 15px;
+}
+
+.body__songsAlbum > p {
+    font-size: 14px;
+    width: fit-content;
+    float: left;
+    margin-left: 45%;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+
+.body__songsRelease > p {
+    margin-left: 340px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.body__songsDurationIcon {
+  margin-left: 14.75%;
+  margin-top: 30px;
+  height: fit-content; 
+  width: fit-content;
+}
+
+.body__duration {
+    font-size: 20px !important;
+    padding: 0;
+    margin: 0;
+}
+
+.icon__green {
+    color: #1ed15e;
+}
+
+#discover__profileImage {
+    pointer-events: none;
+}

@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header__left {
+  flex: 0.5;
+  min-width: 70px;
+  background-color: white;
+  color: grey;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header__left > input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.header_arrowContainer {
+  align-items: center;
+  height: fit-content;
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+.forwardArrow {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(56,55,73);
+  margin: 0 10px;
+}
+
+.forwardArrow:hover {
+  cursor: not-allowed;  
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 10px;
+}
+.backArrow {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+}
+
+.backArrow:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 10px;
+}
+
+.header__right {
+  background-color: rgba(2, 2, 2, 1);
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 20px;
+  padding: 2px 4px 2px 2px;
+}
+
+.header__right:hover {
+  cursor: pointer;
+  background-color: rgba(2, 2, 2, 0.5);
+}
+
+.header__right > .MuiAvatar-root {
+  height: 30px;
+  width: 30px;
+}
+
+.header__right > h4 {
+  color: white;
+  margin-left: 10px;
+}

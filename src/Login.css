@@ -1,0 +1,19 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login > img {
+    width: 35%;
+    margin-bottom: 0;
+}
+
+.login > a {
+    margin: -15% 0 0 0;
+    padding: 0;
+}
+.login > a:hover {
+    text-decoration: none;
+}
