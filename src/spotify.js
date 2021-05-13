@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/"; //host URL
-const clientId = ""; // Client ID
+const redirectUri = "https://spotify-reactjs-clone.herokuapp.com/"; //host URL
+const clientId = "08ee8b145b1a43869c6e4cf317fc0106"; // Client ID
 
 // Scope
 const scopes = [
